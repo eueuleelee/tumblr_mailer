@@ -7,10 +7,10 @@ var csvFile = fs.readFileSync("friend_list.csv","utf8");
 var emailTemplate = fs.readFileSync('email_template.html', 'utf8');
 
 var client = tumblr.createClient({
-  consumer_key: '3F8QjiQROH7dEbaQGaXm05qxe68ME2RpbRXY6dWDhj0ePTFnNh',
-  consumer_secret: 'EF6lTdIFW91WuKyx7Q8FasBGk0AVZJIGQqY496L6653ltQNmho',
-  token: 'YTpn0lViUY0Kchf6D7gF5GUuQ7gO38kPxgSlnncSdYX4UMBdKs',
-  token_secret: '9W4eojgeJQmUH8l6cuimJrvfUsEK0e5sGWsIrRyxHqQ2bvhIzy'
+  consumer_key: 'xxxxx',
+  consumer_secret: 'xxxx',
+  token: 'xxxxxx',
+  token_secret: 'xxxxxx'
 });
 var mandrill_client = new mandrill.Mandrill('ASh7yBLxpEsKqvs-FxEK5A');
 
